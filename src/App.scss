@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+@import "./components/navBar/Navbar.scss";
+@import "./components/footer/Footer.scss";
+@import "./pages/home/Home.scss";
+@import "./pages/products/Products.scss";
+@import "./pages/product/Product.scss";
+@import "./components/slider/Slider.scss";
