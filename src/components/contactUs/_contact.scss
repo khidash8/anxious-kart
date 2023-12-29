@@ -1,0 +1,43 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  background-color: #fcce1a;
+  height: 10vh;
+  align-items: center;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+
+    span {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .icons {
+      display: flex;
+      gap: 20px;
+    }
+
+    .mail {
+      input {
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 10px 0 0 10px;
+      }
+
+      button {
+        padding: 10px;
+        border: none;
+        border-radius: 0px 10px 10px 0;
+        color: #fcce1a;
+        background: #000;
+      }
+    }
+  }
+}

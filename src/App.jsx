@@ -5,12 +5,14 @@ import Product from "./pages/product/Product";
 import Navbar from "./components/navBar/Navbar";
 import Footer from "./components/footer/Footer";
 import "./App.scss";
+import Contact from "./components/contactUs/Contact";
 
 const Layout = () => {
   return (
     <div>
       <Navbar />
       <Outlet />
+      <Contact />
       <Footer />
     </div>
   );

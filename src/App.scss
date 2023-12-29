@@ -9,9 +9,13 @@
   color: inherit;
 }
 
-@import "./components/navBar/Navbar.scss";
-@import "./components/footer/Footer.scss";
-@import "./pages/home/Home.scss";
-@import "./pages/products/Products.scss";
-@import "./pages/product/Product.scss";
-@import "./components/slider/Slider.scss";
+@import "./components/navBar/Navbar";
+@import "./components/footer/Footer";
+@import "./pages/home/Home";
+@import "./pages/products/Products";
+@import "./pages/product/Product";
+@import "./components/slider/Slider";
+@import "./components/featuredProducts/FeaturedProducts";
+@import "./components/card/card";
+@import "./components/category/category";
+@import "./components/contactUs/Contact";

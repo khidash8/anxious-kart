@@ -29,7 +29,7 @@ const Navbar = () => {
           {/* Links */}
           <div className="item">
             <Link className="link" to="/products/1">
-              Woman
+              Women
             </Link>
           </div>
 
@@ -48,7 +48,7 @@ const Navbar = () => {
 
         <div className="center">
           <Link className="link" to="/">
-            AnxiousKart
+            Ape Cart
           </Link>
         </div>
 

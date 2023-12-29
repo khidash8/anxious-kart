@@ -45,8 +45,8 @@ const Footer = () => {
       {/* Bottom */}
       <div className="footer__bottom">
         <div className="left">
-          <span className="logo">AnxiousKart</span>
-          <span className="copyright">© 2023. All rights reserved</span>
+          <span className="logo">ApeCart</span>
+          <span className="copyright"> © 2023. All rights reserved</span>
         </div>
         <div className="right">
           <img src="./payments.png" alt="payments" />
